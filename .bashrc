@@ -17,10 +17,16 @@ fi
 
 # Put your fun stuff here.
 cd $HOME
+
+# Ubuntu in Crouton accessibility aliases
 alias ubuntu='sudo enter-chroot -n ubuntu'
 alias xfce4='sudo startxfce4 -X xiwi -b -n ubuntu'
+
+# Debian in Crouton accessibility aliases
 alias debian='sudo enter-chroot -n debian'
 alias xfce4='sudo startxfce4 -X xiwi -b -n debian'
+
+# Some other aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
